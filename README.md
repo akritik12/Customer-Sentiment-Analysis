@@ -53,6 +53,17 @@ The model cleans review text, converts it into numerical features using **TF-IDF
 | Average product   | Neutral    |
 | Waste of money    | Negative   |
 
+## Results
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+### Positive Word Cloud
+![Positive Word Cloud](outputs/positive_wordcloud.png)
+
+### Negative Word Cloud
+![Negative Word Cloud](outputs/negative_wordcloud.png)
+
 ## Future Improvements
 
 * Streamlit web app
