@@ -1,42 +1,61 @@
-# Customer-Sentiment-Analysis
-A beginner-friendly NLP project for analyzing customer review sentiment
 # Amazon Customer Review Intelligence
 
-A Natural Language Processing (NLP) and Machine Learning project that analyzes **34,000+ real Amazon customer reviews** and predicts whether a review is **Positive, Neutral, or Negative**.
+> An NLP and Machine Learning project that analyzes **34,000+ Amazon customer reviews** and predicts whether a review is **Positive, Neutral, or Negative**.
 
 ## Project Overview
 
-This project uses real customer review data from Amazon products to build a sentiment classification model. It demonstrates the complete machine learning workflow—from data cleaning and visualization to model training and evaluation.
+This project demonstrates an end-to-end Natural Language Processing workflow using real-world Amazon customer reviews.
+
+The model cleans review text, converts it into numerical features using **TF-IDF**, and classifies sentiment using **Logistic Regression**.
 
 ## Features
 
-* Real Amazon review dataset (34k+ reviews)
-* Data preprocessing and cleaning
-* Sentiment classification
-* TF-IDF text vectorization
-* Logistic Regression model
+* 34,000+ real Amazon reviews
+* Text preprocessing
+* TF-IDF Vectorization
+* Logistic Regression classifier
 * Confusion Matrix
-* Word Clouds
-* Interactive review prediction
+* Word Cloud visualization
+* Custom review prediction
 
 ## Tech Stack
 
 * Python
 * Pandas
+* NumPy
 * Scikit-learn
 * Matplotlib
 * WordCloud
 * Google Colab
 
-## Results
+## Workflow
 
-* Real-world customer review analysis
-* Automatic sentiment prediction
-* Business insights from review trends
+1. Load dataset
+2. Clean review text
+3. Generate TF-IDF features
+4. Train Logistic Regression
+5. Evaluate model
+6. Predict custom reviews
 
 ## Repository Structure
 
-* `data/` – Dataset
-* `notebooks/` – Colab notebook
-* `src/` – Source code
-* `outputs/` – Saved model and figures
+* `data/`
+* `notebooks/`
+* `src/`
+* `outputs/`
+* `models/`
+
+## Sample Prediction
+
+| Review            | Prediction |
+| ----------------- | ---------- |
+| Excellent quality | Positive   |
+| Average product   | Neutral    |
+| Waste of money    | Negative   |
+
+## Future Improvements
+
+* Streamlit web app
+* BERT-based sentiment model
+* Model deployment
+* Dashboard with business insights
